@@ -1,0 +1,109 @@
+.console {
+	background: black;
+	width: 960px;
+	height: 640px;
+	margin: auto;
+}
+
+.scoreboard {
+	width: 328px;
+	height: 64px;
+	margin: auto;
+	text-align: center;
+}
+.scoreboard div {
+	float: left;
+	width: 150px;
+	height: 54px;
+	border: 5px solid white;
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.gameboard {
+	width: 800px;
+	height: 445px;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	margin: auto;
+	margin-top: 5px;
+}
+
+.gameboard_net {
+	background: silver;
+	width: 5px;
+	height: 100%;
+	margin: auto;
+}
+
+#ball {
+	background: red;
+	width: 20px;
+	height: 20px;
+	position: relative;
+}
+
+.pedal {
+	background: white;
+	width: 20px;
+	height: 100px;
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+}
+
+#pedal0 {
+	top: 0px;
+	left: -20px;
+	background: white;
+}
+#pedal1 {
+	top: 0px;
+	left: 776px;
+	background: white;
+}
+.touchcontrols {
+	width: 308px;
+	height: 640px;
+	position: relative;
+}
+#touch_left {
+	top: -524px;
+	left: 0px;
+}
+#touch_right {
+	top: -1164px;
+	left: 652px;
+}
+
+.controls {
+	width: 348px;
+	margin: auto;
+	cursor: pointer;
+}
+
+.controls div {
+	border: 5px solid white;
+	width: 160px;
+	height: 80px;
+	margin: 5px 2px 0px 2px;
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.debug {
+	background: silver;
+	width: 160px;
+	height: 32px;
+	margin-left: 214px;
+	margin-top: 5px;
+	position: relative;
+	top: -1243;
+	display: inline-block;
+}
