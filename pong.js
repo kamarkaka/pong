@@ -157,6 +157,10 @@ function move_pedal(pos_y, id){
 		id.style.top = table.top - table.bottom - 15;
 	}
 }
+document.ontouchstart = function(e){
+	var ev = e || event;
+	ev.preventDefault();
+}
 document.onmousemove = function(e){
 	var ev = e || event;
 	move_pedal(ev.pageY, pedal0_el);
